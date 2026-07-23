@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+
+# Hand landmark model — ~7.8 MB, auto-downloads on first run
+models/*.task
+
+# Runtime logs
+waldo.log
+*.log
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local Claude Code settings (personal)
+.claude/settings.local.json
